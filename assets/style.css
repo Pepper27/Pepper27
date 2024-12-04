@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+    --color-main:white;
+    --color-text-gray:#F2F0F1;
+    --color-text-search:#F0F0F0;
+    --font:"Be Vietnam Pro", sans-serif;
+}
+body{
+    font-family: var(--font);
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.header{
+    background-color: white;
+}
+.header .container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.header .inner-wrap{
+    margin: 0;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 24px 100px;
+}
+.header .inner-logo{
+    width: 147px;
+    font-weight: 700;
+    font-size: 32px;
+    padding: 12px 0;
+}
+.header .inner-menu{
+    display: flex;
+    width: Hug (348px)px;
+    height: Hug (20px)px;
+    gap: 24px;
+}
+.header .inner-menu ul {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header .inner-menu ul li{
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.header .inner-form{
+    flex: 1;
+    width: Fill (563px)px;
+    height: Hug (48px)px;
+    padding: 12px 16px;
+    gap: 12px;
+    border-radius: 62px;
+    background-color:#F0F0F0 ;
+}
+.header .inner-form button {
+    width: 24px;
+    height: 24px;
+    padding: 1.86px;
+    border: none;
+    font-size: 18px;
+    color: #00000066;
+}
+.header .inner-form input{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.24px;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.header .inner-button{
+    display: flex;
+    width: Hug (62px)px;
+    height: Hug (24px)px;
+    gap: 14px;
+}
+.header .inner-button i{
+    font-size: 25px;
+    color: #000000;
+    font-weight: 900;
+
+}
+/* begin section_1 */
+.section_1 .container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.section_1 .inner-wrap{
+    display: flex;
+    gap: 51px;
+    background-color:#F2F0F1 ;
+}
+.section_1 .content{
+    width: calc((100% - 51px)/2);
+}
+.section_1 .content .title-main{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 68px;
+    text-align: left;
+    padding: 138px 0px 0px 100px;
+    bottom: 30px;
+}
+.section_1 .content .desc{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-left:100px;
+    bottom: 50px;
+    opacity: 0.5;
+}
+
+.section_1 .image{
+    width: calc((100% - 51px)/2);
+}
+.section_1 .image .section_1-bg{
+    
+    width: 100%;
+    height: auto;
+}
+
+
+/* end section_1 */
+
+
+
+
+
